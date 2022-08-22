@@ -1164,7 +1164,7 @@ static void statement() {
     }
 }
 
-ObjFunction* do_hsCompile(const char* source) {
+ObjFunction* hsCompile(const char* source) {
     initScanner(source);
     Compiler compiler;
     initCompiler(&compiler, TYPE_SCRIPT);
